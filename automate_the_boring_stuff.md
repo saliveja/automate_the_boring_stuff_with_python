@@ -20,5 +20,16 @@ css selectors --> information and below examples:				| nostarch.com/automatestuf
 	soup.select('div > span')						| all elements names <span> that are directly within an element named <div> with no element between			|
 	soup.select('input[name]')						| all elements named <input> that have a name attribute with any value						|
 	soup.select('input[type="button]')					| all elements names <input> that have an attribute named type with value button					|
-	
+lxml module									| is an html parser, but faster than html.parser									|
+	type()									| returns class													|
+	type(elems[0])								| return the class of index 0												|
+	str(elems[0])								| returns string including tags and the selected part ie. author. <span id="author>Al Sweigart</span>		|
+variable = feedparser.parse()							| parsing rss feed													|
+variable.entries								| displaying the entries in a rss feed										|
+datetime.today().strftime('%Y-%m-%d %H:%M:%S')				| 2021-01-26 16:50:03													|
+CSS										| CSS describes how HTML elements are to be displayed on screen, paper, or in other media				|
+RSS										| a standardized system for the distribution of content from an online publisher					|
+exampleSoup = bs4.BeautifulSoup(exampleFile.read(), 'html.parser')		| beautiful soup module, processing information in file								|
+elems = exampleSoup.select('p')						| returns a list of all paragraphs											|
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	        
