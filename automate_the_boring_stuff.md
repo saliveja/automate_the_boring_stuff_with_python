@@ -31,5 +31,7 @@ CSS										| CSS describes how HTML elements are to be displayed on screen, pa
 RSS										| a standardized system for the distribution of content from an online publisher					|
 exampleSoup = bs4.BeautifulSoup(exampleFile.read(), 'html.parser')		| beautiful soup module, processing information in file								|
 elems = exampleSoup.select('p')						| returns a list of all paragraphs											|
-elems[0].gettext()								| returns a readble text without tags
+elems[0].gettext()								| returns a readble text without tags											|
+sys.argv									|  is a list in Python, which contains the command-line arguments passed to the script				|
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	        
