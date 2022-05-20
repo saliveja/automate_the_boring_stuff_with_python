@@ -3,6 +3,10 @@ ________________________________________________________________________________
 x		                       					|     															|
 -----------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------:|
 modules for web scraping							| webbrowser, requests, bs4, selenium											|
+	webbbrowser								| opems the web page													|
+	requests								| downloads the information from the web page										|
+	bs4									| processing the information, but ignores JavaScript									|
+	selenium								| connects with the web browser. is an automatization tool								|
 web pages on requests								| requests.readthedocs.org/												|
 requests.get()									| downloading information from specifies source, ie. web page, or a file						|
 raise_for_status()								| stops the download if there is an error and communicates the error message						|
@@ -33,5 +37,7 @@ exampleSoup = bs4.BeautifulSoup(exampleFile.read(), 'html.parser')		| beautiful 
 elems = exampleSoup.select('p')						| returns a list of all paragraphs											|
 elems[0].gettext()								| returns a readble text without tags											|
 sys.argv									|  is a list in Python, which contains the command-line arguments passed to the script				|
+min()										| returns the smallest argument passed										|
+webbrowser.open(urlToOpen)							| webbrowser module opens the first five search results by default							|
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	        
