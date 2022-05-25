@@ -1,0 +1,15 @@
+1653467131956	geckodriver	INFO	Listening on 127.0.0.1:54243
+1653467131963	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46507" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileH7p7tV"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1653467133294	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileH7p7tV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46507/devtools/browser/3da91177-3af0-4828-9d4a-70dd0b757f08
+1653467135253	Marionette	INFO	Listening on port 40459
+Read port: 40459
+1653467135300	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1653467141676	Marionette	INFO	Stopped listening on port 40459
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
