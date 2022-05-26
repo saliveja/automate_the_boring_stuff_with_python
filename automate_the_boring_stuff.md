@@ -92,4 +92,9 @@ variable.click()								| variable = webdriver.Firefox() path example: variable=
 - Keys.DELETE									|															|
 - Keys,F1, Keys.F2 etc								|															|
 - Keys.TAB									|															|
+**Selenium clicking browser buttons:**					|															|
+- browser.back()								|															|
+- browser.forward()								|															|
+- browser.refresh()								|															|
+- browser.quit()								|															|
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	        

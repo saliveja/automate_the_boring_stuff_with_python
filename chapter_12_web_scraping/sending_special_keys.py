@@ -14,3 +14,5 @@ time.sleep(5)
 
 htmlElem.send_keys(Keys.HOME)
 # returns to home
+browser.refresh()
+browser.quit()
