@@ -341,3 +341,98 @@ JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeE
 1653552189087	Marionette	INFO	Stopped listening on port 34485
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1653552510189	geckodriver	INFO	Listening on 127.0.0.1:47565
+1653552510195	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41309" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileA8Kw3G"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1653552511373	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileA8Kw3G/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41309/devtools/browser/d1a8e7fc-0f54-4f0d-b41f-4ddb06690afb
+1653552513200	Marionette	INFO	Listening on port 35571
+Read port: 35571
+1653552513317	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653552518815	Marionette	INFO	Stopped listening on port 35571
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1653552535221	geckodriver	INFO	Listening on 127.0.0.1:50941
+1653552535226	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39505" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilevDCKf9"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1653552536525	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevDCKf9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39505/devtools/browser/bfb8b9f9-fb79-49b2-9001-cc0e9429f9ae
+1653552538546	Marionette	INFO	Listening on port 46069
+Read port: 46069
+1653552538658	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+console.warn: "Already started legacy listener for root-node on server0.conn0.windowGlobal4294967452/windowGlobalTarget2"
+console.warn: "Already started legacy listener for root-node on server0.conn0.windowGlobal4294967453/windowGlobalTarget2"
+JavaScript error: https://s0.2mdn.net/10315429/1645028981082/MAR-422-Bumper-VIN-970x250-V1/scripts/script.js, line 11: ReferenceError: blinking is not defined
+SourceActor threw an exception: [Exception... "Failed to open input source 'blob:https://www.mail.com/4487709e-40a0-4ba9-ada3-18a410b1f909'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2121:35
+addAllSources@resource://devtools/server/actors/thread.js:1482:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:288:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: Failed to open input source 'blob:https://www.mail.com/4487709e-40a0-4ba9-ada3-18a410b1f909'
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6nbJiuMIfbM3CrNY-tDIjyCddJisSKcO9ZWp-sVJINc.js line 1 > eval line 3595 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6nbJiuMIfbM3CrNY-tDIjyCddJisSKcO9ZWp-sVJINc.js line 1 > eval line 5766 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6nbJiuMIfbM3CrNY-tDIjyCddJisSKcO9ZWp-sVJINc.js line 1 > eval line 5728 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6nbJiuMIfbM3CrNY-tDIjyCddJisSKcO9ZWp-sVJINc.js line 1 > eval line 3919 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1653552682461	geckodriver	INFO	Listening on 127.0.0.1:54737
+1653552682482	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33341" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileh0SoP4"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1653552684577	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileh0SoP4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33341/devtools/browser/5a90661c-6465-4c0c-adb0-12c83e6de0f2
+1653552686599	Marionette	INFO	Listening on port 34349
+Read port: 34349
+1653552686730	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://z.moatads.com/yahoodisplay873773666324/moatad.js#moatClientLevel1=Yahoo!&moatClientLevel2=391950&moatClientLevel3=2044916&moatClientLevel4=4686726&moatClientSlicer1=89&moatClientSlicer2=0&zMoatAuctionID=1270884620502047860:1653552696269&zMoatAdReqDomain=mail.com, line 242: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/yahoodisplay873773666324/moatad.js#moatClientLevel1=Yahoo!&moatClientLevel2=391950&moatClientLevel3=2044916&moatClientLevel4=4686726&moatClientSlicer1=89&moatClientSlicer2=0&zMoatAuctionID=6162639772675495742:1653552696300&zMoatAdReqDomain=mail.com, line 242: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.mail.com"
+JavaScript warning: https://s.yimg.com/rq/iv/inside-native.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s.yimg.com/rq/iv/inside-native.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.mail.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.mail.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.mail.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://z.moatads.com/yahoodisplay873773666324/moatad.js#moatClientLevel1=Yahoo!&moatClientLevel2=391950&moatClientLevel3=2044916&moatClientLevel4=4686726&moatClientSlicer1=89&moatClientSlicer2=0&zMoatAuctionID=3448103085189157848:1653552724230&zMoatAdReqDomain=mail.com, line 242: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/yahoodisplay873773666324/moatad.js#moatClientLevel1=Yahoo!&moatClientLevel2=391950&moatClientLevel3=2044916&moatClientLevel4=4686743&moatClientSlicer1=89&moatClientSlicer2=0&zMoatAuctionID=5365419904049547653:1653552724235&zMoatAdReqDomain=mail.com, line 242: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s.yimg.com/rq/iv/inside-native.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s.yimg.com/rq/iv/inside-native.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.js7k.com/rq/iv/inside.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1653552731989	Marionette	INFO	Stopped listening on port 34349
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
