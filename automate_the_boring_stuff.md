@@ -42,4 +42,27 @@ webbrowser.open(urlToOpen)							| webbrowser module opens the first five search
 selenium import webdriver							| this is what we need to write to be able to use this module							|
 url.endswith('#')								| can ie. be used in a while loop as 'while not url.endswith() as condition						|
 url.startswith()								| can be udes as a condition if something starts with what we defined						|
+finding elements with **webdriver**						|															|
+- browser.find_element(By.CLASS_NAME, 'name')					| elements that use the CSS												|
+- browser.find_elements(By.CLASS_NAME, 'name)					| class 'name'														|
+- browser.find_element_by_css_selector(selector)				| elements that match the CSS												|
+- browser.find_element_by_css_selector(selector)				| selector														|
+- browser.find_element(By.ID, 'id)						| elements with a matching id												|
+- browser.find_elements(By.ID, 'id')						| attribute value													|
+- browser.find_element_by_link_text(text)					| <a> elements thatcompletely match the text provided								|
+- browser.find_elements_by_link_text(text)					| <a> elements thatcompletely match the text provided								|
+- browser.find_element(By.PARTIAL_LINK_TEXT, 'partial link text')		| <a> elements that contains the text provided									|
+- browser.find_elements(By.PARTIAL_LINK_TEXT, 'partial link text)		| <a> elements that contains the text provided									|
+- browser.find_element(By.NAME, 'name')					| elements with a matching name											|
+- browser.find_elements(By.NAME, 'name')					| attribute value													|
+- browser.find_element(By.TAG_NAME, 'tag name')				| elements with a matching tag name											|
+- browser.find_elements(By.TAG_NAME, 'tag name')				| (case insensitive) an <a> element is matched by 'a' and 'A'							|
+- tag_name									| the tag name, such as 'a' for an <a> element									|
+- get_attribute(name)								| the value for the element's name attribute										|
+- text										| the text within an element, such as 'hello' in <span>hello</spab>							|
+- clear()									| for text field or text area elements, clears the text typed into it						|
+- is_displayed()								| returns True if the element is visible, otherwise returns False							|
+- is_enabled()									| for input elements, returns True if the element is enables, otherwise returns False				|
+- is_selected()								| for checkbox or radio buttom elements, returns True if selected, otherwise returns false				|
+- location									| a dictionary with keys 'x' and 'y' for the position of the element on the page					|
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	        
