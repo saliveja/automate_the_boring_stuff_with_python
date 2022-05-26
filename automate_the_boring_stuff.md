@@ -42,7 +42,7 @@ webbrowser.open(urlToOpen)							| webbrowser module opens the first five search
 selenium import webdriver							| this is what we need to write to be able to use this module							|
 url.endswith('#')								| can ie. be used in a while loop as 'while not url.endswith() as condition						|
 url.startswith()								| can be udes as a condition if something starts with what we defined						|
-finding elements with **webdriver**						|															|
+finding elements with **webdriver:**						| from selenium.webdriver.common.by import By and from selenium import webdriver					|
 - browser.find_element(By.CLASS_NAME, 'name')					| elements that use the CSS												|
 - browser.find_elements(By.CLASS_NAME, 'name)					| class 'name'														|
 - browser.find_element_by_css_selector(selector)				| elements that match the CSS												|
@@ -65,4 +65,31 @@ finding elements with **webdriver**						|															|
 - is_enabled()									| for input elements, returns True if the element is enables, otherwise returns False				|
 - is_selected()								| for checkbox or radio buttom elements, returns True if selected, otherwise returns false				|
 - location									| a dictionary with keys 'x' and 'y' for the position of the element on the page					|
+variable.click()								| variable = webdriver.Firefox() path example: variable=browser.find_element(By.ID, 'login-button')			|
+**Login in to en email:**							| 															|
+- browser = webdriver.Firefox()						| using the browser firefox												|
+- browser.get('https://mail.com')						| specifying which page to get											|
+- linkElem = browser.find_element(By.ID, 'login-button')			| finding element													|
+- linkElem.click()								| going to the login page												|
+- userElem = browser.find_element(By.ID, 'login-email')			| finding element ID for username											|
+- userElem.send_keys('your_real_username_here')				| writing user name was in brackets											|
+- passwordElem = browser.find_element(By.ID, 'login-password')		| finding element ID for password											|
+- passwordElem.send_keys('your_real_password_here')				| writing passwoird as specified in brackets										|
+- passwordElem.submit()							| submitting login													|
+**Variables used in selenium.webdriver.common.keys module:**			| import selenium.webdriver.common.keys as Keys									|
+- Keys.DOWN									|															|
+- Keys.UP									|															|
+- Keys.LEFT									|															|
+- Keys.RIGHT									| 															|
+- Keys.ENTER									| 															|
+- Keys.RETURN									|															|
+- Keys.HOME									|															|
+- Keys.END									| 															|
+- Keys.PAGE_UP									|															|
+- Keys.PAGE_DOWN								|															|
+- Keys.ESCAPE									|															|
+- Keys.BACK_SPACE								|															|
+- Keys.DELETE									|															|
+- Keys,F1, Keys.F2 etc								|															|
+- Keys.TAB									|															|
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	        
