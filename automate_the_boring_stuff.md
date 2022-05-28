@@ -3,7 +3,7 @@
 x		                       					|     															|
 -----------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------:|
 modules for web scraping							| webbrowser, requests, bs4, selenium											|
-- webbbrowser									| opems the web page													|
+- webbbrowser									| opens the web page													|
 - requests									| downloads the information from the web page										|
 - bs4										| processing the information, but ignores JavaScript									|
 - selenium									| connects with the web browser. is an automatization tool								|
@@ -49,8 +49,8 @@ finding elements with **webdriver:**						| from selenium.webdriver.common.by im
 - browser.find_element_by_css_selector(selector)				| selector														|
 - browser.find_element(By.ID, 'id)						| elements with a matching id												|
 - browser.find_elements(By.ID, 'id')						| attribute value													|
-- browser.find_element_by_link_text(text)					| <a> elements thatcompletely match the text provided								|
-- browser.find_elements_by_link_text(text)					| <a> elements thatcompletely match the text provided								|
+- browser.find_element(By.LINK_TEXT, 'text')					| <a> elements thatcompletely match the text provided								|
+- browser.find_elements(By.LINK_TEXT, 'text')					| <a> elements thatcompletely match the text provided								|
 - browser.find_element(By.PARTIAL_LINK_TEXT, 'partial link text')		| <a> elements that contains the text provided									|
 - browser.find_elements(By.PARTIAL_LINK_TEXT, 'partial link text)		| <a> elements that contains the text provided									|
 - browser.find_element(By.NAME, 'name')					| elements with a matching name											|
@@ -76,8 +76,8 @@ variable.click()								| variable = webdriver.Firefox() path example: variable=
 - passwordElem = browser.find_element(By.ID, 'login-password')		| finding element ID for password											|
 - passwordElem.send_keys('your_real_password_here')				| writing passwoird as specified in brackets										|
 - passwordElem.submit()							| submitting login													|
-**Variables used in selenium.webdriver.common.keys module:**			| import selenium.webdriver.common.keys as Keys									|
-- Keys.DOWN									|															|
+**Variables used in selenium.webdriver.common.keys module:**			| import selenium.webdriver.common.keys as Keys --> selenium-python.readthedocs.org					|
+- Keys.DOWN									| these keys have the same functions as keyboard keys								|
 - Keys.UP									|															|
 - Keys.LEFT									|															|
 - Keys.RIGHT									| 															|
@@ -93,8 +93,12 @@ variable.click()								| variable = webdriver.Firefox() path example: variable=
 - Keys,F1, Keys.F2 etc								|															|
 - Keys.TAB									|															|
 **Selenium clicking browser buttons:**					|															|
-- browser.back()								|															|
-- browser.forward()								|															|
-- browser.refresh()								|															|
-- browser.quit()								|															|
+- browser.back()								| simulating back button												|
+- browser.forward()								| simulating forward button												|
+- browser.refresh()								| simulating refresh button												|
+- browser.quit()								| quitting browser window												|
+**Screenshots:**								|															|
+- driver.save_screenshot(f'name.png')						| saving the screenshot to a file											|
+- screenshot = Image.open(‘ss.png’)						| opening file with screenshot											|
+- screenshot.show()								| viewing the screenshot												|
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	        
