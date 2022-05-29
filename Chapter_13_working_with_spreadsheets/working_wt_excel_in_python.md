@@ -17,6 +17,12 @@ openpyxl									| 															|
 - sheet.cell(row=1, column=2).value						| accessing the value of the cell											|
 - sheet.max_row								| returning the highest row number											|
 - sheet.max_column								| returning the highest column number											|
-
+- get_column_letter(1)								| integers can be converted to letters with this									|
+- column_index_from_string('A')						| string are converter to integers											|
+- for rowOfCellObjects in sheet['A1':'C3']					| for loop with tuple focused on the rows in the specifies area							|
+- for cellObj in rowOfCellObjects:						| for loop inside the first loop to access the cells in rowOfCells							|
+- print(cellObj.coordinate, cellObj.value)					| returns the value of each cell in the specified area								|
+- for cellObj in list(sheet.columns)[1]:					| refers to the value in index one for all rows									|
+- print(cellObj.value)								| orint all cellObj values in index 1											|
 
    	
