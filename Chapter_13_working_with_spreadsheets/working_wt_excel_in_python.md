@@ -24,5 +24,6 @@ openpyxl									| 															|
 - print(cellObj.coordinate, cellObj.value)					| returns the value of each cell in the specified area								|
 - for cellObj in list(sheet.columns)[1]:					| refers to the value in index one for all rows									|
 - print(cellObj.value)								| orint all cellObj values in index 1											|
+- list(sheets.columns)[0]							| cell objects in column A												|
+- list(sheets.columns)[1]							| cell objects in column B												|
 
-   	

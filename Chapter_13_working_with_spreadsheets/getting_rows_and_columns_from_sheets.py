@@ -16,6 +16,12 @@ for rowOfCellObjects in sheet['A1':'C3']:
         # it returns all of these values for A1 to c3
     print('---END OF ROW---')
 
+print(list(sheet.columns)[1])
+# all rows, cell B (or index 1)
+# there are 7 rows and 3 columns
+# row gives us 7 tuples each containing 3 cell objects
+# columns gives us 3 tuples with 7 cell objects in each
+
 for cellObj in list(sheet.columns)[1]:
     # for the objects with index position 1
     print(cellObj.value)
