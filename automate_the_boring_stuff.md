@@ -1,4 +1,4 @@
-# Automate the boring stuff
+# Web scraping
 
 x		                       					|     															|
 -----------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------:|
@@ -45,8 +45,8 @@ url.startswith()								| can be udes as a condition if something starts with wh
 finding elements with **webdriver:**						| from selenium.webdriver.common.by import By and from selenium import webdriver					|
 - browser.find_element(By.CLASS_NAME, 'name')					| elements that use the CSS												|
 - browser.find_elements(By.CLASS_NAME, 'name)					| class 'name'														|
-- browser.find_element_by_css_selector(selector)				| elements that match the CSS												|
-- browser.find_element_by_css_selector(selector)				| selector														|
+- browser.find_element(By.CSS_SELECTOR(selector)				| elements that match the CSS												|
+- browser.find_element(By.CSS_SELECTOR(selector)				| selector														|
 - browser.find_element(By.ID, 'id)						| elements with a matching id												|
 - browser.find_elements(By.ID, 'id')						| attribute value													|
 - browser.find_element(By.LINK_TEXT, 'text')					| <a> elements thatcompletely match the text provided								|
