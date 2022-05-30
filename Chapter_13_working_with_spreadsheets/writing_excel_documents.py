@@ -17,5 +17,6 @@ print(sheet.title)
 # import openpyxl
 # wb=openpyxl.load_workbook('example.xlsx')
 # sheet=wb.active
-# sheet.title='Spam Spam Spam'
-# wb.save('example_copy.xlsx')
+# sheet.title='Spam Spam Spam' (changing the name of the sheet to this)
+# wb.save('example_copy.xlsx') (saving the file with the new sheet name as a
+# new file called copy)
