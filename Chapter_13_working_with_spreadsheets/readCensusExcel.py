@@ -2,6 +2,8 @@
 # readCensusExcel.py
 
 import openpyxl, pprint
+import os
+import census2010
 
 print('Opening workbook...')
 wb = openpyxl.load_workbook('censuspopdata.xlsx')
@@ -35,3 +37,12 @@ for row in range(2, sheet.max_row +1):
     countyData[state][county]['pop'] += int(pop)
     # increasing county population by adding the population in the tract
 
+print('Writing results...')
+resultFile = open('census2010.py', 'w')
+resultFile.write('AllData = ' + pprint.pformat(countyData))
+resultFile.close()
+print('Done.')
+
+print(census2010.allData['AK']['Anchorage'])
+anchoragePop = census2010.allData['AK']['Anchorage']['Pop']
+print('The 2010 population of Anchorage was ' + str(anchoragePop))
