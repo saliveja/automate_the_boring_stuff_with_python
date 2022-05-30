@@ -18,3 +18,7 @@ print(wb.sheetnames)
 wb.create_sheet(index=2, title='Middle Sheet')
 # creating a new sheet at index 2 called 'Middle Sheet'
 print(wb.sheetnames)
+
+del wb['Middle Sheet']
+del wb['Sheet1']
+print(wb.sheetnames)

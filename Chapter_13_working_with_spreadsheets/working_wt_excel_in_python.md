@@ -36,3 +36,4 @@ openpyxl										| 															|
 - variable = openpyxl.Workbook()							| creates a new excel document											|
 - variable.create_sheet()								| creates a new sheet in the excel document										|
 - variable.create_sheet(index=0, title='New Name')					| creating a new sheet at a specific position with a specific name							|
+- del variable['nameOfSheetToDel']							| deleting sheet													|
