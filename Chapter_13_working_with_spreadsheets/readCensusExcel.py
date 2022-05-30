@@ -7,7 +7,7 @@ import census2010
 
 print('Opening workbook...')
 wb = openpyxl.load_workbook('censuspopdata.xlsx')
-sheet = wb['Population By Census Tract']
+sheet = wb['Population by Census Tract']
 countyData = {}
 # the dictionary will contain population and number of tracts for each county
 # the key will be the state abbreviation
@@ -43,6 +43,9 @@ resultFile.write('AllData = ' + pprint.pformat(countyData))
 resultFile.close()
 print('Done.')
 
-print(census2010.allData['AK']['Anchorage'])
-anchoragePop = census2010.allData['AK']['Anchorage']['Pop']
+# census2010['AK']['Anchorage']
+anchoragePop = census2010.AllData['AK']['Anchorage']['pop']
+# All data is referring to the string in resultFile.write()
+# it becomes the variable for the dictionary that will be written
+# to census2010.py
 print('The 2010 population of Anchorage was ' + str(anchoragePop))
