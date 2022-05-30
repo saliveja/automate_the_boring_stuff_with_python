@@ -33,3 +33,6 @@ openpyxl										| 															|
 - resultFile = open('nameOfFile.py', 'w')						| we create a file where we can store the data									|
 - resultFile.write('AllData = ' + pprint.pformat(youEmptyDictName))			| pprint formats the data so it can be used as input to the interpreter						|
 - x = nameOfFile.AllData['valueRowA1']['valueRowA2']['keyA3']			| storing the data we want to see in a variable, example of sequence							|
+- variable = openpyxl.Workbook()							| creates a new excel document											|
+- variable.create_sheet()								| creates a new sheet in the excel document										|
+- variable.create_sheet(index=0, title='New Name')					| creating a new sheet at a specific position with a specific name							|
